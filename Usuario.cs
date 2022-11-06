@@ -16,15 +16,6 @@ namespace Clases
         public string email { get; set; }
         public string contraseña { get; set; }
 
-        public Usuario()
-        {
-            nombre = "";
-            apellido = "";
-            nombreUsuario = "";
-            email = "";
-            id = 0;
-            contraseña = "";
-        }
     }
 }
 
